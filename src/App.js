@@ -18,7 +18,13 @@ function App() {
                         headerShown: true,
                     }}
                 />
-
+                  <Stack.Screen
+                    name="NotesScreen"
+                    component={NotesScreen}
+                    options={{
+                        headerShown: true,
+                    }}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
